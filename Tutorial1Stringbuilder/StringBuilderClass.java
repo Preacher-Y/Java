@@ -8,7 +8,9 @@ public class StringBuilderClass{
         // Convert StringBuilder to String
         String result = sb.toString();
         int age=32;
-        System.out.println(String.format("%s this world is for people with age of %d",result,age));
-        
+        // String Formatting
+        System.out.println(String.format("%s ,this world is for people with age of %d",result,age));
+        // Notice i changed the println to printf
+        System.out.printf("%s ,this world is for people with age of %d",result,age);
     }
 }
