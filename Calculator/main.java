@@ -10,7 +10,7 @@ public class main {
         System.out.println("+--------------------------------------------------+");
 
         Scanner choice = new Scanner(System.in);
-
+        char operator;
         System.out.println("Enter Your first Number: ");
         double num1 = choice.nextDouble();
 
@@ -18,7 +18,7 @@ public class main {
         double num2 = choice.nextDouble();
 
         System.out.println("Choose an operation (+, -, *, /): ");
-        char operator = choice.next().charAt(0);
+        operator = choice.next().charAt(0);
 
         double result;
 
