@@ -2,7 +2,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class DbConfig {
-    //DB Data
+    //DB Data + credntials
     private static final String USERNAME = "root";
     private static final String PASSWORD = "";
     private static final String URL = "jdbc:mysql://localhost:3306/lbb";
